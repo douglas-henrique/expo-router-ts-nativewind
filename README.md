@@ -1,14 +1,17 @@
-# Expo Router Example
+# Description
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Simple expo-app using [`expo-router`](https://expo.github.io/router) - Native navigation using files in the `app/` directory.
+
+Also, we used [`native-wind`](https://www.nativewind.dev/) for styling 
 
 ## 🚀 How to use
 
 ```sh
-npx create-expo-app -e with-router
+yarn
 ```
 
-## 📝 Notes
+### Running the app
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+```sh
+yarn ios
+```
