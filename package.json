@@ -1,17 +1,20 @@
 {
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "EXPO_USE_TYPED_ROUTES=true expo start",
+    "android": "EXPO_USE_TYPED_ROUTES=true expo start --android",
+    "ios": "EXPO_USE_TYPED_ROUTES=true expo start --ios",
+    "web": "EXPO_USE_TYPED_ROUTES=true expo start --web"
   },
   "dependencies": {
+    "@types/react": "~18.0.27",
+    "dotenv": "^16.3.1",
     "expo": "^48.0.7",
     "expo-constants": "~14.2.1",
     "expo-linking": "~4.0.1",
     "expo-router": "^1.2.0",
     "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.71.3",
@@ -23,7 +26,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@babel/plugin-proposal-export-namespace-from": "^7.18.9"
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "tailwindcss": "^3.3.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.3"
   },
   "resolutions": {
     "metro": "^0.73.7",
